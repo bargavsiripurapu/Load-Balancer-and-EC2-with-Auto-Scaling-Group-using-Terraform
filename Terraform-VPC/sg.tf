@@ -1,5 +1,5 @@
 resource "aws_security_group" "sh_sg_for_elb" {
-  name   = "sharmi-sg_for_elb"
+  name   = "aws-sg_for_elb"
   vpc_id = aws_vpc.lb_asg_vpc.id
   
   ingress {
